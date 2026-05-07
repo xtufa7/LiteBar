@@ -1,6 +1,8 @@
-# LiteBar
-
 <div align="center">
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:1C1C1C,100:2D5BFF&section=header"/>
 
 <h2>⚡ Lightweight Control Bar for Windows</h2>
 
@@ -11,16 +13,17 @@ power mode switching, shortcuts, and compact workflow controls.
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=18&pause=1000&color=2D5BFF&center=true&vCenter=true&width=650&lines=Clean+temporary+files+quickly...;Restart+Windows+Explorer+instantly...;Switch+power+modes+with+one+click...;Stay+lightweight+and+out+of+the+way..." />
 
-<p>
-Built to stay quiet in the system tray, open fast when needed,
-and give quick access to useful Windows actions without heavy tools.
-</p>
+<br>
+
+<img src="https://img.shields.io/badge/platform-Windows-2D5BFF?style=for-the-badge">
+<img src="https://img.shields.io/badge/.NET-8-1C1C1C?style=for-the-badge">
+<img src="https://img.shields.io/badge/status-active-2D5BFF?style=for-the-badge">
 
 </div>
 
 ---
 
-## ✨ Features
+# ✨ Features
 
 * Tray-first Windows utility
 * Safe temporary files cleanup
@@ -35,7 +38,7 @@ and give quick access to useful Windows actions without heavy tools.
 
 ---
 
-## 🚧 Development Status
+# 🚧 Development Status
 
 <div align="center">
 
@@ -56,7 +59,7 @@ The goal is simple: keep LiteBar fast, compact, and useful without getting in yo
 
 ---
 
-## 📦 Downloads
+# 📦 Downloads
 
 Go to the latest release and download:
 
@@ -65,8 +68,22 @@ Go to the latest release and download:
 
 ---
 
-## 🛠️ Build
+# 🛠️ Build
 
 ```powershell
 dotnet publish "src\LiteBar\LiteBar.csproj" -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true /p:IncludeNativeLibrariesForSelfExtract=true
 ```
+
+---
+
+<div align="center">
+
+### 💙 Made with love, coffee, and late-night debugging
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&pause=1000&color=D5D8DE&center=true&vCenter=true&width=420&lines=Built+to+stay+simple...;Built+to+stay+fast...;Built+to+stay+lightweight..." />
+
+<br>
+
+⭐ If you like the project, consider giving it a star
+
+</div>
